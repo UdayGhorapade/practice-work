@@ -4,67 +4,64 @@
 # In[1]:
 
 
-x='uday'
-y='Ghorapade'
-print(x)
-print(y)
+a=[1,2,3]
+b=a.append(4)
+print(a)
+print(b)
 
 
 # In[2]:
 
 
-print(x,y)
+List = [x+y for x in ['Hello ', 'Good '] for y in ['Dear', 'Bye']]
+
+print(List)
+
+
+# In[3]:
+
+
+temp = ['python', 'machinelearning', 'deeplearning']
+
+arr = [i[0].upper() for i in temp]
+
+print(arr)
 
 
 # In[4]:
 
 
-print(x,end='-')
-print(y)
+print([i.lower() for i in "HELLO"])
 
 
-# In[10]:
+# In[5]:
 
 
-name=input('enter your name : ')
-print('hello ' + name)
+l1=[1,2,3]
+
+l2=[4,5,6]
+
+[x*y for x in l1 for y in l2]
 
 
-# In[11]:
+# In[6]:
 
 
-z=x+y
-print(z)
+list = ['python', 'learning', '@', 'i2', 'tutorials', 'website']
+
+print(list[0:6:2])
 
 
-# In[12]:
+# In[7]:
 
 
-a = "hello world"
-a[0:5:1]
+list1 = [1, 2, 3, 4, 5]
 
+list2 = list1
 
-# In[13]:
+list2[0] = 0;
 
-
-first_name = 'uday '
-last_name = 'Ghorapade'
-full_name = first_name+last_name
-print(full_name)
-
-
-# In[14]:
-
-
-a='uday'
-print(a.upper())
-
-
-# In[15]:
-
-
-a='UDAY'
-print(a.lower())
+print( list1)
 
 
 # In[ ]:
